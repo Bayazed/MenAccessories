@@ -1,0 +1,10 @@
+#кодировка
+AddDefaultCharset utf-8
+
+#убираем расширение .php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+

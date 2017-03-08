@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin:0 auto;
+    background: linear-gradient(to right, purple 10%, crimson 30%, orangered 50%, gold 75%);
+}
+h1 {
+    padding-top: 40px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+.login_block {
+    margin: 100px auto;
+    width: 390px;
+    height: 430px;
+    background: #262730;
+}
+.register_block {
+    margin: 100px auto;
+    width: 390px;
+    height: 700px;
+    background: #262730;
+}
+#input_login {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #B4B4B4;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 330px;
+    height: 45px;
+    background: #3A3A46;
+    border: none;
+}
+#input_first_name {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #B4B4B4;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 330px;
+    height: 45px;
+    background: #3A3A46;
+    border: none;
+}
+#input_last_name {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #B4B4B4;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 330px;
+    height: 45px;
+    background: #3A3A46;
+    border: none;
+}
+#input_email {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #B4B4B4;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 330px;
+    height: 45px;
+    background: #3A3A46;
+    border: none;
+}
+#input_password {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #B4B4B4;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 330px;
+    height: 45px;
+    background: #3A3A46;
+    border: none;
+}
+#input_submit {
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+    outline: none;
+    width: 165px;
+    height: 46px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #ffffff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+#input_submit:hover {
+    color: #ffffff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+#input_submit:active {
+    color: #ffffff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+#input_in {
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+    outline: none;
+    width: 165px;
+    height: 46px;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #ffffff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+#input_in:hover {
+    color: #ffffff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+#input_in:active {
+    color: #ffffff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+.btn-danger {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-right: 20px;
+    outline: none;
+    width: 165px;
+    height: 46px;
+    float: right;
+    color: #ffffff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn-danger:hover {
+    color: #ffffff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+.btn-danger:active {
+    color: #ffffff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+.btn-registr {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    outline: none;
+    width: 350px;
+    height: 46px;
+    float: left;
+    color: #ffffff;
+    background-color: #337AB7;
+    border-color: #204D74;
+}
+.btn-registr:hover {
+    color: #ffffff;
+    background-color: #286090;
+    border-color: #15334D;
+}
+.btn-registr:active {
+    color: #ffffff;
+    background-color: #286090;
+    border-color: #15334D;
+}
+.btn-login {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    outline: none;
+    width: 350px;
+    height: 46px;
+    float: left;
+    color: #ffffff;
+    background-color: #337AB7;
+    border-color: #204D74;
+}
+.btn-login:hover {
+    color: #ffffff;
+    background-color: #286090;
+    border-color: #15334D;
+}
+.btn-login:active {
+    color: #ffffff;
+    background-color: #286090;
+    border-color: #15334D;
+}

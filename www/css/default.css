@@ -1,0 +1,22 @@
+/*
+** Стили по умолчанию
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(237, 232, 223);
+    font-family: arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h3 {
+    color: black;
+    font-size: 16px;
+}

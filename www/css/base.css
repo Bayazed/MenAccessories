@@ -1,0 +1,116 @@
+/*
+** Базовые стили
+*/
+.brends {
+    width: 100%;
+    height: 200px;
+    background: rgb(42, 42, 42);
+}
+.brends a div {
+    float: left;
+    margin-left: 83px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.top_categorias {
+    float: left;
+    width: 100%;
+    height: 250px;
+    background: rgb(31, 31, 31);
+}
+.img_categorias {
+    padding: auto;
+    margin: auto;
+    width: 1000px;
+}
+.img_categorias a {
+    margin-right: 20px;
+}
+.img_categorias a:first-child {
+    margin-left: 30px;
+}
+.img_categorias a:last-child {
+    margin-right: 0px;
+}
+.img_categorias a img{
+    margin-top: 25px;
+}
+.main {
+    width: 100%;
+}
+.news {
+    margin: auto;
+    width: 1000px;
+}
+.line {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.text {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: inherit;
+}
+.line a:nth-child(1), .line a:nth-child(2)  {
+    margin-right: 20px;
+}
+.line h1 {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: bimini, sans-serif;
+    float: left;
+}
+.show_all {
+    margin-top: 15px;
+    margin-right: 50px;
+    width: 150px;
+    height: 25px;
+    float: right;
+    border: solid 1px rgb(192, 182, 168);
+    text-align: center;
+    padding-top: 7px;
+    font-family: bimini, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(192, 182, 168);
+}
+.show_all:hover {
+    background: rgb(243, 239, 233);
+}
+.img_price {
+    margin-top: -45px;
+    margin-left: 10px;
+    width: 130px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(0, 198, 160);
+    position: absolute;
+    font-family: bimini, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.line a:nth-child(2) .img_price {
+    margin-left: 335px;
+}
+.line a:nth-child(3) .img_price {
+    margin-left: 660px;
+}
+.menu_bottom {
+    width: 100%;
+    height: 90px;
+    margin-top: 80px;
+    background: rgb(42, 42, 42);
+}
+.copyright {
+    width: 1000px;
+    font-family: bimini, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(100, 100, 100);
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 50px;
+}
